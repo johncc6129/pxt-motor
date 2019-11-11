@@ -58,6 +58,13 @@ namespace motor {
 
     const BYG_CHD_L = 2047
     const BYG_CHD_H = 4095
+    
+    enum PingUnit {
+    //% block="cm"
+    Centimeters,
+    //% block="μs"
+    MicroSeconds
+    }
 
     /**
      * The user can choose the step motor model.
@@ -69,7 +76,7 @@ namespace motor {
         Ste2 = 2
     }
 
-    /**
+	/**
      * The user can select the 8 steering gear controller.
      */
     export enum Servos {
