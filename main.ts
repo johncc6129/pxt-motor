@@ -59,7 +59,7 @@ namespace motor {
     const BYG_CHD_L = 2047
     const BYG_CHD_H = 4095
     
-    enum PingUnit {
+    export enum PingUnit {
     //% block="cm"
     Centimeters,
     //% block="μs"
